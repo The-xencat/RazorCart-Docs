@@ -1,0 +1,23 @@
+{
+    "info": {
+      "_postman_id": "abc-123-xyz",
+      "name": "RazorCart API Demo",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Create Order",
+        "request": {
+          "method": "POST",
+          "header": [
+            { "key": "Authorization", "value": "Bearer <your_jwt_token>", "type": "text" }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{ \"amount\": 5000, \"currency\": \"INR\", \"receipt\": \"rcptid_11\" }"
+          },
+          "url": { "raw": "https://api.razorcart.com/v1/orders", "host": ["api.razorcart.com"], "path": ["v1", "orders"] }
+        }
+      }
+    ]
+  }  

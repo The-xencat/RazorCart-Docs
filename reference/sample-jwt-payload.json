@@ -1,0 +1,6 @@
+{
+    "user_id": "dev_123",
+    "iat": 1719200000,
+    "exp": 1719216000,
+    "iss": "razorcart.auth.service"
+  }  
