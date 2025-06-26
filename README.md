@@ -22,11 +22,11 @@ This is a self-initiated technical writing project inspired by Razorpay's real-w
 ## 📁 Project Structure
 
 RazorCart-Docs/
-├── index.html
-├── final-docs/ # Downloadable PDF Guide
-├── drafts/ # Early content, outlines
-├── reference/ # Sample payloads, API mock data
-└── README.md # Project Overview
+- ├── index.html
+- ├── final-docs/ # Downloadable PDF Guide
+- ├── drafts/ # Early content, outlines
+- ├── reference/ # Sample payloads, API mock data
+- └── README.md # Project Overview
 
 ## 🛠️ Purpose
 
